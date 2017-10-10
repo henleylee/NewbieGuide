@@ -1,7 +1,6 @@
-# NewbieGuide-master —— Android 新手引导提示
+# NewbieGuide-master —— Android 新手引导视图
 
 ## 效果演示 ##
-#### 设备上的所有应用程序分为所有、系统、用户三类： ####
 ![](/screenshots/picture1.jpg)
 ![](/screenshots/picture2.jpg)
 
