@@ -91,24 +91,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void showMemberGuide(View view) {
-        if (memberGuide == null) {
-            int[] loc = new int[2];
-            view.getLocationOnScreen(loc);
-            memberGuide = NewbieGuide.with(this)
-                    .addHighLight(view, ShapeType.RECTANGLE) // 设置高亮控件
-                    .addGuideTip(R.layout.layout_member_view, loc[0] + view.getWidth() / 2, loc[1]) // 设置引导提示
-                    .setLabel("member_guide") // 设置用于识别引导提示的标签
-                    .setAlwaysShow(false) // 是否每次都显示引导层，默认false
-                    .setAnyWhereCancelable(true) // 设置点击任何区域消失，默认为true
-                    .setBackgroundColor(GuideLayout.DEFAULT_COLOR) //设置引导层背景色
-                    .build(); // 构建引导层的控制器
-        }
-        if (memberGuide.isShowing()) {
-            memberGuide.dismiss(); // 取消引导提示
-        } else {
-            memberGuide.show(); // 显示引导提示
-            memberGuide.resetLabel("member_guide"); // 重置用于识别引导提示的标签
-        }
+        int[] loc = new int[2];
+        view.getLocationOnScreen(loc);
+        NewbieGuide.with(this)
+                .addHighLight(view, ShapeType.RECTANGLE) // 设置高亮控件
+                .addGuideTip(R.layout.layout_member_view, loc[0] + view.getWidth() / 2, loc[1]) // 设置引导提示
+                .setLabel("member_guide") // 设置用于识别引导提示的标签
+                .setAlwaysShow(true) // 是否每次都显示引导层，默认false
+                .setAnyWhereCancelable(true) // 设置点击任何区域消失，默认为true
+                .setBackgroundColor(GuideLayout.DEFAULT_COLOR) //设置引导层背景色
+                .show(); // 显示引导提示
     }
 
     private void showButtonGuide(View view) {

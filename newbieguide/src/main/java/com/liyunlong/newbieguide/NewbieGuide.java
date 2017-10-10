@@ -467,8 +467,18 @@ public class NewbieGuide {
             return inflater.inflate(layoutResID, null);
         }
 
+        /**
+         * 构建引导层的控制器
+         */
         public NewbieGuide build() {
             return new NewbieGuide(this);
+        }
+
+        /**
+         * 显示引导提示
+         */
+        public void show() {
+            build().show();
         }
     }
 
