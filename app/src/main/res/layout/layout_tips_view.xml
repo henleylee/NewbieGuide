@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/arrow_right_top" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="弹出自定义引导提示啦~~建议通过此方式来添加提示信息"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/iv_isee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_isee" />
+
+</LinearLayout>
