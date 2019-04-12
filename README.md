@@ -1,8 +1,12 @@
-# NewbieGuide-master —— Android 新手引导视图
+# NewbieGuide —— Android 新手引导视图
 
 ## 效果演示 ##
 ![](/screenshots/picture1.jpg)
 ![](/screenshots/picture2.jpg)
+
+## APK Demo ##
+
+下载 [APK-Demo](https://github.com/HenleyLee/NewbieGuide/raw/master/app/app-release.apk)
 
 ## 基本使用 ##
 ```java
