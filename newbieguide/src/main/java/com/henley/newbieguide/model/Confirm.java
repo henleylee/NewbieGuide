@@ -1,9 +1,9 @@
-package com.liyunlong.newbieguide.model;
+package com.henley.newbieguide.model;
 
 import android.view.View;
 
 /**
- * @author liyunlong
+ * @author Henley
  * @date 2017/9/28 14:47
  */
 public class Confirm {

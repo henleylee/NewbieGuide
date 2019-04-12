@@ -1,4 +1,4 @@
-package com.liyunlong.newbieguide.demo;
+package com.henley.newbieguide.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.liyunlong.newbieguide.demo", appContext.getPackageName());
+        assertEquals("com.henley.newbieguide.demo", appContext.getPackageName());
     }
 }

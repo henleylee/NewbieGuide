@@ -1,7 +1,7 @@
-package com.liyunlong.newbieguide.model;
+package com.henley.newbieguide.model;
 
 /**
- * @author liyunlong
+ * @author Henley
  * @date 2017/9/28 14:48
  */
 public class Message {

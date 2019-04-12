@@ -1,4 +1,4 @@
-package com.liyunlong.newbieguide.demo;
+package com.henley.newbieguide.demo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -13,9 +13,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.liyunlong.newbieguide.GuideLayout;
-import com.liyunlong.newbieguide.NewbieGuide;
-import com.liyunlong.newbieguide.ShapeType;
+import com.henley.newbieguide.GuideLayout;
+import com.henley.newbieguide.NewbieGuide;
+import com.henley.newbieguide.ShapeType;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Toolbar toolbar;

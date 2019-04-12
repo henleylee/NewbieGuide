@@ -1,4 +1,4 @@
-package com.liyunlong.newbieguide.model;
+package com.henley.newbieguide.model;
 
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -6,7 +6,7 @@ import android.widget.RelativeLayout;
 /**
  * 引导信息
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/9/28 14:48
  */
 public class GuideTip {

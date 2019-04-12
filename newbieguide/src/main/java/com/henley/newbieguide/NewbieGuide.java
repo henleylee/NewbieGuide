@@ -1,4 +1,4 @@
-package com.liyunlong.newbieguide;
+package com.henley.newbieguide;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,8 +13,8 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
-import com.liyunlong.newbieguide.model.GuideTip;
-import com.liyunlong.newbieguide.model.HighLight;
+import com.henley.newbieguide.model.GuideTip;
+import com.henley.newbieguide.model.HighLight;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 /**
  * 引导提示辅助类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/9/28 14:56
  */
 public class NewbieGuide {

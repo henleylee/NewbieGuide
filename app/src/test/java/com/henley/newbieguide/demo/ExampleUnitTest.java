@@ -1,4 +1,4 @@
-package com.liyunlong.newbieguide;
+package com.henley.newbieguide.demo;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.liyunlong.newbieguide;
+package com.henley.newbieguide;
 
 import android.content.Context;
 import android.graphics.BlurMaskFilter;
@@ -11,8 +11,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import com.liyunlong.newbieguide.model.GuideTip;
-import com.liyunlong.newbieguide.model.HighLight;
+import com.henley.newbieguide.model.GuideTip;
+import com.henley.newbieguide.model.HighLight;
 
 import java.util.List;
 
@@ -21,7 +21,7 @@ import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 /**
  * 引导提示控件
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/9/28 14:37
  */
 public class GuideLayout extends RelativeLayout {

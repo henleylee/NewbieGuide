@@ -1,14 +1,14 @@
-package com.liyunlong.newbieguide.model;
+package com.henley.newbieguide.model;
 
 import android.graphics.RectF;
 import android.view.View;
 
-import com.liyunlong.newbieguide.ShapeType;
+import com.henley.newbieguide.ShapeType;
 
 /**
  * 高亮信息
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/9/28 14:33
  */
 public class HighLight {
